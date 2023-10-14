@@ -7,8 +7,7 @@ class AppThemes {
   AppThemes._();
   static final light = ThemeData(
       fontFamily: GoogleFonts.poppins().fontFamily,
-      colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color.fromARGB(255, 255, 229, 30)));
+      colorScheme: ColorScheme.fromSeed(seedColor: MyColors.primaryColor));
   static final dark = ThemeData(
       fontFamily: GoogleFonts.poppins().fontFamily,
       colorScheme: ColorScheme.fromSeed(seedColor: MyColors.secondaryColor));
