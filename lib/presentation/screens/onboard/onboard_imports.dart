@@ -2,8 +2,8 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:bloc_journo_app/core/constants/my_assets.dart';
 import 'package:bloc_journo_app/core/constants/my_colors.dart';
+import 'package:bloc_journo_app/data/data_sources/remote/api_client.dart';
 import 'package:bloc_journo_app/presentation/common_widgets/common_widgets_imports.dart';
-import 'package:bloc_journo_app/presentation/routes/router_imports.gr.dart';
 import 'package:bloc_journo_app/presentation/screens/onboard/widgets/onboard_view_model.dart';
 import 'package:bloc_journo_app/presentation/screens/onboard/widgets/widgets_imports.dart';
 import 'package:flutter/material.dart';

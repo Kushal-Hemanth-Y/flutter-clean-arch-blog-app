@@ -6,7 +6,6 @@ import 'package:bloc_journo_app/presentation/screens/general/profile/profile_imp
 import 'package:bloc_journo_app/presentation/screens/general/tags/tags_imports.dart';
 import 'package:flutter/material.dart';
 import 'package:awesome_bottom_bar/awesome_bottom_bar.dart';
-import 'package:velocity_x/velocity_x.dart';
 import 'package:feather_icons/feather_icons.dart';
 
 import 'categories/categories_imports.dart';

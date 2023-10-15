@@ -1,4 +1,3 @@
-import 'package:auto_route/auto_route.dart';
 import 'package:bloc_journo_app/core/constants/my_assets.dart';
 import 'package:bloc_journo_app/core/constants/my_colors.dart';
 import 'package:feather_icons/feather_icons.dart';
