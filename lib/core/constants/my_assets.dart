@@ -17,5 +17,9 @@ class MyAssets {
   /// assets/images/ob3.png
   static const String ob3 = "assets/images/ob3.png";
 
+  static const String netflix = "assets/images/netflix.webp";
+
   static const String girlLogin = "assets/images/girllogin.png";
+
+  static const String kush = "assets/images/kush.png";
 }

@@ -24,5 +24,11 @@ class AppRouter extends $AppRouter {
         CustomRoute(
             page: RegisterRoute.page,
             transitionsBuilder: TransitionsBuilders.slideLeft),
+        CustomRoute(
+            page: GeneralRoute.page,
+            transitionsBuilder: TransitionsBuilders.slideLeft),
+        CustomRoute(
+            page: HomeDetailsRoute.page,
+            transitionsBuilder: TransitionsBuilders.slideLeft),
       ];
 }
