@@ -37,14 +37,17 @@ class _OnBoardState extends State<OnBoard> {
                 ],
               ).expand(),
               PrimaryButton(
-                title: 'Get Started',
-                // onPressed: () {
-                //   AutoRouter.of(context).push(const AuthRoute());
-                // }
-                onPressed: () {
-                  ApiClient().getTags();
-                },
-              ),
+                  title: 'Get Started',
+                  onPressed: () {
+                    AutoRouter.of(context).push(const AuthRoute());
+                  }
+                  // onPressed: () {
+                  //   TagsRepo().getAllTags();
+                  // ApiClient().postRequest(
+                  //     path: ApiEndPointUrls.addTags,
+                  //     body: {"title": "titlefromop", "slug": "titleslug"});
+                  // },
+                  ),
               61.h.heightBox,
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
